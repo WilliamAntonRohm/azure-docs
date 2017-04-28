@@ -14,7 +14,7 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: data-services
-ms.date: 07/10/2016
+ms.date: 04/28/2017
 ms.author: ronmat; ronitr
 
 ---
@@ -26,7 +26,7 @@ SQL Threat Detection detects anomalous activities indicating unusual and potenti
 
 SQL Threat Detection provides a new layer of security, which enables customers to detect and respond to potential threats as they occur by providing security alerts on anomalous activities.  Users will receive an alert upon suspicious database activities, potential vulnerabilities and SQL injection attacks, as well as anomalous database access patterns. SQL Threat Detection alerts provide details of suspicious activity and recommend action on how to investigate and mitigate the threat.Users can explore the suspicious events using [SQL Database Auditing](sql-database-auditing.md) to determine if they result from an attempt to access, breach or exploit data in the database. Threat Detection makes it simple to address potential threats to the database without the need to be a security expert or manage advanced security monitoring systems.
 
-For example, Threat Detection detects certain anomalous database activities indicating access from an unusual location, access by an unfamiliar principal and potential SQL injection attack. SQL injection is one of the common Web application security issues on the Internet, used to attack data-driven applications. Attackers take advantage of application vulnerabilities to inject malicious SQL statements into application entry fields, for breaching or modifying data in the database.
+For example, SQL injection is one of the common Web application security issues on the Internet, used to attack data-driven applications. Attackers take advantage of application vulnerabilities to inject malicious SQL statements into application entry fields, for breaching or modifying data in the database.
 
 SQL Threat Detection integrates alerts with [Azure Security Center](https://acom-16811-merge.azurewebsites.net/en-us/services/security-center/), and, each protected SQL Database server will be billed at the same price as Azure Security Center Standard tier, at $15/node/month, where each protected SQL Database server is counted as one node. We invite you to try it out for 60 days for free. 
 
